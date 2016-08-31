@@ -52,3 +52,7 @@ gem 'tmix-icon-rails'
 gem 'slim'
 gem 'sassc-rails'
 gem 'bootstrap', '~> 4.0.0.alpha3.1'
+
+group :production do
+  gem 'pg'
+end

@@ -50,3 +50,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'tmix-icon-rails'
 gem 'slim'
 gem 'sassc-rails'
+gem 'bootstrap', '~> 4.0.0.alpha3.1'

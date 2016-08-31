@@ -1,0 +1,14 @@
+.container
+  .row
+    .col-md-6.col-md-offset-3
+      table.table
+        tr
+          th
+            | icon class name
+          th
+            | icon glyph
+        - @icons.each do |icon|
+          tr
+            td= icon
+            td
+              i(class="#{icon}")
